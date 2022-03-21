@@ -33,7 +33,7 @@ contract Inbox { //contract è una keyward che si comporta come una classe su PY
         return message;
     }
 }
-//ATTENZIONE! 
+//ATTENZIONE!  
 //Quando vado a definire una storage variable pubblica come message, Solidity me la interpreta 
 //in automatico come una funzione. Quindi la funzione getMessage è superflua in qualche modo perchè
 //io ottenevo il solito risultato a gratis semplicemente chiamando message
